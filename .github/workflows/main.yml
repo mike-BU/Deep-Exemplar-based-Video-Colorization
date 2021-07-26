@@ -27,4 +27,4 @@ jobs:
       - name: docker build python
         run: |
           echo Initiating Vernal Pigment Docker Image Build
-          docker build mike-BU/Vernal-Piment -t vernal_pigment_docker:01
+          docker build mike-BU/Vernal-Pigment -t vernal_pigment_docker:01
