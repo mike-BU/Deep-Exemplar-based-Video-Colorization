@@ -27,6 +27,6 @@ jobs:
       - name: docker build python
         run: |
           echo Initiating Vernal Pigment Docker Image Build
-          docker build ./Deep-Exemplar-based-Video-Colorization
+          docker build mike-BU/Deep-Exemplar-based-Video-Colorization
           
         
