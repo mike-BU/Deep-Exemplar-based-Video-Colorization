@@ -27,5 +27,5 @@ jobs:
       - name: docker build python
         run: |
           echo Initiating Vernal Pigment Docker Image Build
-          docker build \-t gcr.io/vernal-pigment/github.com/mike-bu/vernal-pigment:$COMMIT_SHA \.
+          docker build \-t github.com/mike-bu/vernal-pigment:$COMMIT_SHA \.
           
